@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [opencartSuite]" duration-ms="15302" started-at="2021-08-18T07:13:45 IST" finished-at="2021-08-18T07:14:01 IST">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_AccountRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@646007f4]" name="test_account_Registration" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@646007f4]" name="test_account_Registration" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="opencartTests(failed)" duration-ms="15302" started-at="2021-08-18T07:13:45 IST" finished-at="2021-08-18T07:14:01 IST">
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@646007f4]" name="setup" is-config="true" duration-ms="5577" started-at="2021-08-18T07:13:46 IST" finished-at="2021-08-18T07:13:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@646007f4]" name="test_account_Registration" duration-ms="8199" started-at="2021-08-18T07:13:51 IST" finished-at="2021-08-18T07:14:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@646007f4]" name="tearDown" is-config="true" duration-ms="1030" started-at="2021-08-18T07:14:00 IST" finished-at="2021-08-18T07:14:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </test> <!-- opencartTests(failed) -->
+  </suite> <!-- Failed suite [opencartSuite] -->
+</testng-results>
